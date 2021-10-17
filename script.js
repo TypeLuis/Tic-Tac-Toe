@@ -200,7 +200,7 @@ for (button of buttons){
                 p1Start = false
                 player1 = false
             }
-            if(b1 != "" && b2 != "" && b3 != "" && b4 != "" && b5 != "" && b6 != "" && b7 != "" && b8 != "" && b9 != ""){
+            if(b1 != "" && b2 != "" && b3 != "" && b4 != "" && b5 != "" && b6 != "" && b7 != "" && b8 != "" && b9 != "" && winner == false){
                 head[0].innerText = 'Draw!'
                 winner = true
                 draws++
